@@ -1,6 +1,7 @@
 <?php
 
-namespace App\Models;
+
+namespace App\Models\Ejercicio1;
 
 class Oracion
 {

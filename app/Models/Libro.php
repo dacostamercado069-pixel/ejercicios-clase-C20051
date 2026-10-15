@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Models;
+
+namespace App\Models\Ejercicio1;
 
 class Libro
 {
     /** @var Capitulo[] */
-    private array $capitulos = [];         // 1..*
+    private array $capitulos = [];         
 
     public function __construct(private string $titulo)
     {

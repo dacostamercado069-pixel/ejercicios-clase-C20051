@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Ejercicio1;
 
 class Parrafo
 {
     /** @var Oracion[] */
     private array $oraciones = [];         // 1..*
 
-    // Composición (◆): el párrafo CREA sus oraciones.
+   
     public function agregarOracion(): Oracion
     {
         $oracion = new Oracion();
